@@ -5,7 +5,7 @@
 
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
 
-  <project remote="yocto" name="poky" revision="dunfell-23.0.9" path="poky" />
+  <project remote="yocto" name="poky" revision="dunfell" path="poky" />
 
 </manifest>
 
