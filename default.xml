@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4">
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+
+  <project remote="yocto" name="poky" revision="dunfell-23.0.9" path="poky" />
+
+</manifest>
+
