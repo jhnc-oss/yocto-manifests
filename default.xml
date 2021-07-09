@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4">
+  <default sync-j="4" />
 
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
 
