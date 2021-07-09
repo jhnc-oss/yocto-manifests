@@ -4,8 +4,11 @@
   <default sync-j="4" />
 
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="jhnc-oss" fetch="git://github.com/jhnc-oss" />
 
   <project remote="yocto" name="poky" revision="dunfell" path="poky" />
+  <project remote="jhnc-oss" name="meta-clang" revision="dunfell" path="poky/meta-clang" />
+  <project remote="jhnc-oss" name="meta-qt5" revision="dunfell" path="poky/meta-qt5" />
 
 </manifest>
 
