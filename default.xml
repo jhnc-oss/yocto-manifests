@@ -1,14 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- settings -->
   <default sync-j="4" />
 
-  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <!-- remotes -->
   <remote name="jhnc-oss" fetch="git://github.com/jhnc-oss" />
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
 
-  <project remote="yocto" name="poky" revision="dunfell" path="poky" />
-  <project remote="jhnc-oss" name="meta-clang" revision="dunfell" path="poky/meta-clang" />
-  <project remote="jhnc-oss" name="meta-qt5" revision="dunfell" path="poky/meta-qt5" />
+  <!-- layers -->
+  <!-- https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=dunfell-23.0.9 -->
+  <project remote="yocto"
+           upstream="dunfell"
+           name="poky"
+           path="poky"
+           revision="43060f59ba60a0257864f1f7b25b51fac3f2d2cf" />
+
+  <project remote="jhnc-oss"
+           name="meta-clang"
+           path="meta-clang"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
+           name="meta-protos"
+           path="meta-protos"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
+           name="meta-qt5"
+           path="meta-qt5"
+           revision="h5b/dunfell-5.12.4" />
 
 </manifest>
 
