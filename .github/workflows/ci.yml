@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build_linux:
+    runs-on: ubuntu-latest
+    name: "Build"
+    steps:
+      - uses: actions/checkout@master
+      - name: Setup
+        run: |
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          pip install -r requirements.txt
+          # Workaround for unsupported local manifest
+          mkdir _local
+          cp default.xml _local
+          cd _local
+          git config --global user.email "ignore@ignore"
+          git config --global user.name "ignore"
+          git init
+          git add .
+          git commit -m "local manifest"
+      - name: Build
+        run: |
+          repo init -u _local
+          repo sync
