@@ -9,12 +9,12 @@
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
 
   <!-- layers -->
-  <!-- https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=dunfell-23.0.9 -->
+  <!-- https://git.yoctoproject.org/cgit/cgit.cgi/poky/commit/?h=dunfell-23.0.10 -->
   <project remote="yocto"
            upstream="dunfell"
            name="poky"
            path="poky"
-           revision="43060f59ba60a0257864f1f7b25b51fac3f2d2cf" />
+           revision="2a848e95074318f3a243df7b3f40513a13173a82" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
