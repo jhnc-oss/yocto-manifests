@@ -21,6 +21,11 @@
            revision="dunfell" />
 
   <project remote="jhnc-oss"
+           name="meta-openembedded"
+           path="meta-oe"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
            revision="dunfell" />
