@@ -35,5 +35,8 @@
            path="meta-qt5"
            revision="h5b/dunfell-5.12.4" />
 
+  <project remote="jhnc-oss"
+           name="meta-selinux"
+           path="meta-selinux"
+           revision="dunfell" />
 </manifest>
-
