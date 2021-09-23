@@ -21,6 +21,11 @@
            revision="dunfell" />
 
   <project remote="jhnc-oss"
+           name="meta-mingw"
+           path="meta-mingw"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
            revision="dunfell" />
@@ -40,3 +45,4 @@
            path="meta-selinux"
            revision="dunfell" />
 </manifest>
+
