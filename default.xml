@@ -13,7 +13,7 @@
            upstream="dunfell"
            name="poky"
            path="poky"
-           revision="refs/tags/dunfell-23.0.10" />
+           revision="refs/tags/dunfell-23.0.11" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
