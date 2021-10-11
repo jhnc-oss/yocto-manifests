@@ -43,7 +43,7 @@
   <project remote="jhnc-oss"
            name="meta-qt5"
            path="meta-qt5"
-           revision="h5b/dunfell-5.12.4" />
+           revision="backport/5.12.4-dunfell-23.0.11" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
