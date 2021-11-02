@@ -5,15 +5,13 @@
   <default sync-j="4" />
 
   <!-- remotes -->
-  <remote name="jhnc-oss" fetch="git://github.com/jhnc-oss" />
-  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
 
   <!-- layers -->
-  <project remote="yocto"
-           upstream="dunfell"
+  <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="refs/tags/dunfell-23.0.11" />
+           revision="refs/tags/dunfell-23.0.10" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
@@ -43,7 +41,7 @@
   <project remote="jhnc-oss"
            name="meta-qt5"
            path="meta-qt5"
-           revision="backport/5.12.4-dunfell-23.0.11" />
+           revision="backport/5.12.4-dunfell-23.0.10" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
