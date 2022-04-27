@@ -31,7 +31,7 @@
   <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
-           revision="dunfell" />
+           revision="main" />
 
   <project remote="jhnc-oss"
            name="meta-python2"
@@ -48,4 +48,3 @@
            path="meta-selinux"
            revision="dunfell" />
 </manifest>
-
