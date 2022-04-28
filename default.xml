@@ -39,6 +39,11 @@
            revision="dunfell" />
 
   <project remote="jhnc-oss"
+           name="meta-python2-backport"
+           path="meta-python2-backport"
+           revision="main" />
+
+  <project remote="jhnc-oss"
            name="meta-qt5"
            path="meta-qt5"
            revision="dunfell" />
