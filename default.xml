@@ -9,6 +9,16 @@
 
   <!-- layers -->
   <project remote="jhnc-oss"
+           name="protos"
+           path="protos"
+           revision="main" />
+
+  <project remote="jhnc-oss"
+           name="meta-protos"
+           path="meta-protos"
+           revision="main" />
+
+  <project remote="jhnc-oss"
            name="poky"
            path="poky"
            revision="dunfell" />
@@ -27,11 +37,6 @@
            name="meta-openembedded"
            path="meta-oe"
            revision="dunfell" />
-
-  <project remote="jhnc-oss"
-           name="meta-protos"
-           path="meta-protos"
-           revision="main" />
 
   <project remote="jhnc-oss"
            name="meta-python2"
