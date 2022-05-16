@@ -56,7 +56,7 @@
   <project remote="jhnc-oss"
            name="meta-rust"
            path="meta-rust"
-           revision="test-dunfell" />
+           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
