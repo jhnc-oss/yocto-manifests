@@ -11,17 +11,17 @@
   <project remote="jhnc-oss"
            name="protos"
            path="protos"
-           revision="main" />
+           revision="MS16" />
 
   <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
-           revision="main" />
+           revision="MS16" />
 
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="dunfell" />
+           revision="refs/tags/dunfell-23.0.17" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
@@ -46,7 +46,7 @@
   <project remote="jhnc-oss"
            name="meta-python2-backport"
            path="meta-python2-backport"
-           revision="main" />
+           revision="dunfell" />
 
   <project remote="jhnc-oss"
            name="meta-qt5"
