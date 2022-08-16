@@ -37,6 +37,11 @@
            name="meta-python2"
            path="meta-python2"
            revision="dunfell" />
+  
+  <project remote="jhnc-oss"
+           name="meta-rust"
+           path="meta-rust"
+           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-qt5"
