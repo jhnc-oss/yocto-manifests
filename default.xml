@@ -21,7 +21,7 @@
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="dunfell" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
@@ -52,11 +52,6 @@
            name="meta-qt5"
            path="meta-qt5"
            revision="dunfell" />
-
-  <project remote="jhnc-oss"
-           name="meta-rust"
-           path="meta-rust"
-           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
