@@ -21,7 +21,7 @@
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="kirkstone" />
+           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
