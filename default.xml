@@ -11,7 +11,7 @@
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="refs/tags/dunfell-23.0.17" />
+           revision="refs/tags/dunfell-23.0.19" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
@@ -37,7 +37,7 @@
            name="meta-python2"
            path="meta-python2"
            revision="dunfell" />
-  
+
   <project remote="jhnc-oss"
            name="meta-rust"
            path="meta-rust"
@@ -46,7 +46,7 @@
   <project remote="jhnc-oss"
            name="meta-qt5"
            path="meta-qt5"
-           revision="backport/5.12.4-dunfell-23.0.17" />
+           revision="backport/5.12.4-dunfell-23.0.19" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
