@@ -11,55 +11,55 @@
   <project remote="jhnc-oss"
            name="protos"
            path="protos"
-           revision="main" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
-           revision="main" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="dunfell" />
+	  revision="refs/tags/kirkstone-4.0.4" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
            path="meta-clang"
-           revision="dunfell" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
-           revision="dunfell" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
-           revision="dunfell" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-python2"
            path="meta-python2"
-           revision="dunfell" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-python2-backport"
            path="meta-python2-backport"
-           revision="main" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-qt5"
            path="meta-qt5"
-           revision="dunfell" />
+           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-rust"
            path="meta-rust"
-           revision="master" />
+           revision="kirkstone" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
-           revision="dunfell" />
+           revision="kirkstone" />
 </manifest>
