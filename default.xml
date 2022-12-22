@@ -51,7 +51,7 @@
   <project remote="jhnc-oss"
            name="meta-qt5"
            path="meta-qt5"
-           revision="dunfell" />
+	  revision="backport/5.15.7-lts-gpl" />
 
   <project remote="jhnc-oss"
            name="meta-rust"
