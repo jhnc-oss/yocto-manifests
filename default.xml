@@ -11,12 +11,12 @@
   <project remote="jhnc-oss"
            name="protos"
            path="protos"
-           revision="main" />
+      revision="ph-xfce" />
 
   <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
-           revision="main" />
+           revision="ph-xfce" />
 
   <project remote="jhnc-oss"
            name="poky"
