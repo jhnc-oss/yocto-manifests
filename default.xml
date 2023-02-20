@@ -35,6 +35,11 @@
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
+           path="meta-python"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
+           name="meta-openembedded"
            path="meta-oe"
            revision="dunfell" />
 
