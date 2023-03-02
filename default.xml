@@ -16,7 +16,7 @@
   <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
-           revision="MS18" />
+	  revision="h5b-wayland" />
 
   <project remote="jhnc-oss"
            name="poky"
