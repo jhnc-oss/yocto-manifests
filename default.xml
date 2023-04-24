@@ -51,7 +51,7 @@
   <project remote="jhnc-oss"
            name="meta-qt5"
            path="meta-qt5"
-           revision="dunfell" />
+           revision="962f45e2661295bab10e17aacf7914ffe8ac59ae" />
 
   <project remote="jhnc-oss"
            name="meta-rust"
