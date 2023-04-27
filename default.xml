@@ -57,6 +57,11 @@
            name="meta-rust"
            path="meta-rust"
            revision="master" />
+    
+  <project remote="jhnc-oss"
+           name="yocto-meta-kf5"
+           path="meta-kf5"
+           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
