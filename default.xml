@@ -9,6 +9,16 @@
 
   <!-- layers -->
   <project remote="jhnc-oss"
+           name="protos"
+           path="protos"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
+           name="meta-protos"
+           path="meta-protos"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
            name="poky"
            path="poky"
            revision="dunfell" />
@@ -29,14 +39,14 @@
            revision="dunfell" />
 
   <project remote="jhnc-oss"
-           name="meta-protos"
-           path="meta-protos"
-           revision="dunfell" />
-
-  <project remote="jhnc-oss"
            name="meta-python2"
            path="meta-python2"
            revision="dunfell" />
+
+  <project remote="jhnc-oss"
+           name="meta-python2-backport"
+           path="meta-python2-backport"
+           revision="main" />
 
   <project remote="jhnc-oss"
            name="meta-qt5"
@@ -44,8 +54,12 @@
            revision="dunfell" />
 
   <project remote="jhnc-oss"
+           name="meta-rust"
+           path="meta-rust"
+           revision="master" />
+
+  <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
            revision="dunfell" />
 </manifest>
-
