@@ -21,7 +21,7 @@
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="dunfell" />
+           revision="refs/tags/dunfell-23.0.26" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
@@ -31,7 +31,7 @@
   <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
-           revision="dunfell" />
+           revision="refs/tags/dunfell-23.0.26" />
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
