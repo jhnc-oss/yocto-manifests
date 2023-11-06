@@ -45,11 +45,6 @@
            revision="kirkstone" />
 
   <project remote="jhnc-oss"
-           name="meta-rust"
-           path="meta-rust"
-           revision="master" />
-
-  <project remote="jhnc-oss"
            name="meta-raspberrypi"
            path="meta-raspberrypi"
            revision="kirkstone" />
