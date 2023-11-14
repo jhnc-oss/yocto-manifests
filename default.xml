@@ -22,7 +22,7 @@
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="kirkstone" />
+           revision="refs/tags/kirkstone-4.0.13" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
@@ -32,7 +32,7 @@
   <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
-           revision="kirkstone" />
+           revision="refs/tags/kirkstone-4.0.13" />
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
