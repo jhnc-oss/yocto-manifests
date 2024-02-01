@@ -17,12 +17,12 @@
   <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
-           revision="kirkstone" />
+           revision="MS19" />
 
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="kirkstone" />
+	   revision="refs/tags/kirkstone-4.0.14" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
