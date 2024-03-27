@@ -7,6 +7,7 @@
   <!-- remotes -->
   <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
   <remote name="meta-qt5" fetch="https://github.com/meta-qt5" />
+  <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
 
   <!-- layers -->
   <project remote="jhnc-oss"
@@ -56,6 +57,11 @@
 
   <project remote="jhnc-oss"
 	   name="yocto-meta-kf5"
-           path="meta-kf5"
-           revision="288288033137c19b72948a91d74b82b66c788fe3" />
+        path="meta-kf5"
+        revision="288288033137c19b72948a91d74b82b66c788fe3" />
+
+  <project remote="yoctoproject"
+	   name="meta-security"
+       path="meta-security"
+       revision="kirkstone" />
 </manifest>
