@@ -7,6 +7,8 @@
   <!-- remotes -->
   <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
   <remote name="meta-qt5" fetch="https://github.com/meta-qt5" />
+  <remote name="meta-qt6" fetch="https://github.com/meta-qt6" />
+
 
   <!-- layers -->
   <project remote="jhnc-oss"
