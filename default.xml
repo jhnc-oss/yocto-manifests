@@ -45,6 +45,11 @@
            revision="kirkstone" />
 
   <project remote="jhnc-oss"
+           name="meta-qt6"
+           path="meta-qt6"
+           revision="lts-6.5" />
+
+  <project remote="jhnc-oss"
            name="meta-raspberrypi"
            path="meta-raspberrypi"
            revision="kirkstone" />
@@ -58,4 +63,10 @@
 	   name="yocto-meta-kf5"
            path="meta-kf5"
            revision="288288033137c19b72948a91d74b82b66c788fe3" />
+
+  <project remote="jhnc-oss"
+	   name="yocto-meta-kf6"
+           path="meta-kf6"
+           revision="master" />
+
 </manifest>
