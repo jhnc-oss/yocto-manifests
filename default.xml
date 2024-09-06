@@ -14,37 +14,37 @@
   <project remote="jhnc-oss"
            name="protos"
            path="protos"
-           revision="kirkstone" />
+           revision="h5b-scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-protos"
            path="meta-protos"
-           revision="kirkstone" />
+           revision="h5b-scarthgap" />
 
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
            path="meta-clang"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="meta-qt5"
            name="meta-qt5"
            path="meta-qt5"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-qt6"
@@ -54,20 +54,20 @@
   <project remote="jhnc-oss"
            name="meta-raspberrypi"
            path="meta-raspberrypi"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
-	   name="yocto-meta-kf5"
+	         name="yocto-meta-kf5"
            path="meta-kf5"
            revision="288288033137c19b72948a91d74b82b66c788fe3" />
 
   <project remote="jhnc-oss"
-	   name="yocto-meta-kf6"
+	         name="yocto-meta-kf6"
            path="meta-kf6"
            revision="master" />
 
