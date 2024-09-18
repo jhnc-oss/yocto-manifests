@@ -17,11 +17,6 @@
            revision="h5b-scarthgap" />
 
   <project remote="jhnc-oss"
-           name="meta-protos"
-           path="meta-protos"
-           revision="h5b-scarthgap" />
-
-  <project remote="jhnc-oss"
            name="poky"
            path="poky"
            revision="scarthgap" />
