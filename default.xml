@@ -7,67 +7,60 @@
   <!-- remotes -->
   <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
   <remote name="meta-qt5" fetch="https://github.com/meta-qt5" />
-  <remote name="meta-qt6" fetch="https://github.com/meta-qt6" />
-
 
   <!-- layers -->
   <project remote="jhnc-oss"
-           name="protos"
-           path="protos"
-           revision="kirkstone" />
-
-  <project remote="jhnc-oss"
-           name="meta-protos"
-           path="meta-protos"
-           revision="kirkstone" />
-
-  <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="kirkstone" />
+           revision="refs/tags/scarthgap-5.0.4" />
+
+  <project remote="jhnc-oss"
+           name="protos"
+           path="protos"
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
            path="meta-clang"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="meta-qt5"
            name="meta-qt5"
            path="meta-qt5"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-qt6"
            path="meta-qt6"
-           revision="lts-6.5" />
+           revision="refs/tags/v6.8.0" />
 
   <project remote="jhnc-oss"
            name="meta-raspberrypi"
            path="meta-raspberrypi"
-           revision="kirkstone" />
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
-           revision="kirkstone" />
+           revision="scarthgap" />
+
+    <project remote="jhnc-oss"
+           name="meta-security"
+           path="meta-security"
+           revision="scarthgap" />
 
   <project remote="jhnc-oss"
-	   name="yocto-meta-kf5"
-           path="meta-kf5"
-           revision="288288033137c19b72948a91d74b82b66c788fe3" />
-
-  <project remote="jhnc-oss"
-	   name="yocto-meta-kf6"
+           name="yocto-meta-kf6"
            path="meta-kf6"
            revision="master" />
 
