@@ -6,7 +6,6 @@
 
   <!-- remotes -->
   <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
-  <remote name="meta-qt5" fetch="https://github.com/meta-qt5" />
 
   <!-- layers -->
   <project remote="jhnc-oss"
@@ -32,11 +31,6 @@
   <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
-           revision="scarthgap" />
-
-  <project remote="meta-qt5"
-           name="meta-qt5"
-           path="meta-qt5"
            revision="scarthgap" />
 
   <project remote="jhnc-oss"
