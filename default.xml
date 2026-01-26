@@ -11,7 +11,7 @@
   <project remote="jhnc-oss"
            name="poky"
            path="poky"
-           revision="refs/tags/scarthgap-5.0.14" />
+           revision="refs/tags/scarthgap-5.0.15" />
 
   <project remote="jhnc-oss"
            name="protos"
