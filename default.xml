@@ -58,11 +58,6 @@
            revision="refs/tags/v6.8.6-lts" />
 
   <project remote="jhnc-oss"
-           name="meta-raspberrypi"
-           path="meta-raspberrypi"
-           revision="master" />
-
-  <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
            revision="whinlatter" />
