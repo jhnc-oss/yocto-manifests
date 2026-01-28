@@ -7,11 +7,28 @@
   <!-- remotes -->
   <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
 
+  <!-- TODO: These remotes are for development only; replace with mirrored remote -->
+  <remote name="upstream-oe" fetch="https://git.openembedded.org" />
+  <remote name="upstream-yocto" fetch="https://git.yoctoproject.org" />
+
   <!-- layers -->
-  <project remote="jhnc-oss"
-           name="poky"
-           path="poky"
-           revision="refs/tags/scarthgap-5.0.15" />
+  <!-- TODO: Poky replacements -->
+  <project remote="upstream-oe"
+           name="bitbake"
+           path="bitbake"
+           revision="refs/tags/yocto-5.3" />
+  <project remote="upstream-oe"
+           name="openembedded-core"
+           path="openembedded-core"
+           revision="whinlatter" />
+  <project remote="upstream-yocto"
+           name="meta-yocto"
+           path="meta-yocto"
+           revision="refs/tags/yocto-5.3" />
+  <project remote="upstream-yocto"
+           name="meta-yocto"
+           path="yocto-docs"
+           revision="refs/tags/yocto-5.3" />
 
   <project remote="jhnc-oss"
            name="protos"
