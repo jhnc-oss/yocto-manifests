@@ -38,17 +38,17 @@
   <project remote="jhnc-oss"
            name="meta-clang"
            path="meta-clang"
-           revision="scarthgap" />
+           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
-           revision="scarthgap" />
+           revision="whinlatter" />
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
-           revision="scarthgap" />
+           revision="whinlatter" />
 
   <project remote="jhnc-oss"
            name="meta-qt6"
@@ -58,17 +58,17 @@
   <project remote="jhnc-oss"
            name="meta-raspberrypi"
            path="meta-raspberrypi"
-           revision="scarthgap" />
+           revision="master" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
-           revision="scarthgap" />
+           revision="whinlatter" />
 
     <project remote="jhnc-oss"
            name="meta-security"
            path="meta-security"
-           revision="scarthgap" />
+           revision="whinlatter" />
 
   <project remote="jhnc-oss"
            name="yocto-meta-kf6"
