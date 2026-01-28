@@ -33,7 +33,7 @@
   <project remote="jhnc-oss"
            name="protos"
            path="protos"
-           revision="scarthgap" />
+           revision="dev_wrynose" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
