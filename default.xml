@@ -12,19 +12,21 @@
   <remote name="upstream-yocto" fetch="https://git.yoctoproject.org" />
 
   <!-- layers -->
-  <!-- TODO: Poky replacements -->
   <project remote="upstream-oe"
            name="bitbake"
            path="bitbake"
            revision="refs/tags/yocto-5.3" />
+
   <project remote="upstream-oe"
            name="openembedded-core"
            path="openembedded-core"
            revision="whinlatter" />
+
   <project remote="upstream-yocto"
            name="meta-yocto"
            path="meta-yocto"
            revision="refs/tags/yocto-5.3" />
+
   <project remote="upstream-yocto"
            name="meta-yocto"
            path="yocto-docs"
