@@ -53,7 +53,7 @@
   <project remote="jhnc-oss"
            name="meta-qt6"
            path="meta-qt6"
-           revision="refs/tags/v6.8.3" />
+           revision="refs/tags/v6.8.6-lts" />
 
   <project remote="jhnc-oss"
            name="meta-raspberrypi"
