@@ -29,6 +29,11 @@
            revision="dunfell" />
 
   <project remote="jhnc-oss"
+           name="meta-lts-collab"
+           path="meta-lts-collab"
+           revision="dunfell" />
+
+  <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
            revision="dunfell" />
