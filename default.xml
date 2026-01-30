@@ -35,7 +35,7 @@
   <project remote="jhnc-oss"
            name="protos"
            path="protos"
-           revision="dev_wrynose" />
+           revision="wrynose" />
 
   <project remote="jhnc-oss"
            name="meta-clang"
