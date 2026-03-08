@@ -24,6 +24,11 @@
            revision="scarthgap" />
 
   <project remote="jhnc-oss"
+           name="meta-lts-mixins"
+           path="meta-lts-mixins"
+           revision="scarthgap/rust" />
+
+  <project remote="jhnc-oss"
            name="meta-mingw"
            path="meta-mingw"
            revision="scarthgap" />
