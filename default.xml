@@ -29,11 +29,6 @@
            revision="scarthgap/rust" />
 
   <project remote="jhnc-oss"
-           name="meta-mingw"
-           path="meta-mingw"
-           revision="scarthgap" />
-
-  <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
            revision="scarthgap" />
