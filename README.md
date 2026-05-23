@@ -19,6 +19,7 @@ repo sync
 
 | Yocto Release Branch | Status | Note |
 |:--------------------:|:------:|------|
+| **`wrynose`**        | :construction: WIP     | |
 | **`scarthgap`**      | :heavy_check_mark: LTS | :arrows_clockwise: Synced from `main` — *do not contribute directly* |
 | **`kirkstone`**      | :heavy_check_mark: LTS | |
 | **`dunfell`**        | :heavy_check_mark: LTS | |
