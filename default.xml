@@ -11,22 +11,22 @@
   <project remote="jhnc-oss"
            name="bitbake"
            path="bitbake"
-           revision="refs/tags/yocto-5.3" />
+           revision="refs/tags/yocto-6.0" />
 
   <project remote="jhnc-oss"
            name="openembedded-core"
            path="openembedded-core"
-           revision="whinlatter" />
+      revision="refs/tags/yocto-6.0" />
 
   <project remote="jhnc-oss"
            name="meta-yocto"
            path="meta-yocto"
-           revision="refs/tags/yocto-5.3" />
+           revision="refs/tags/yocto-6.0" />
 
   <project remote="jhnc-oss"
-           name="meta-yocto"
+           name="yocto-docs"
            path="yocto-docs"
-           revision="refs/tags/yocto-5.3" />
+           revision="refs/tags/yocto-6.0" />
 
   <project remote="jhnc-oss"
            name="protos"
@@ -36,17 +36,12 @@
   <project remote="jhnc-oss"
            name="meta-clang"
            path="meta-clang"
-           revision="master" />
-
-  <project remote="jhnc-oss"
-           name="meta-mingw"
-           path="meta-mingw"
-           revision="whinlatter" />
+           revision="wrynose" />
 
   <project remote="jhnc-oss"
            name="meta-openembedded"
            path="meta-oe"
-           revision="whinlatter" />
+           revision="wrynose" />
 
   <project remote="jhnc-oss"
            name="meta-qt6"
@@ -56,12 +51,12 @@
   <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
-           revision="whinlatter" />
+           revision="wrynose" />
 
     <project remote="jhnc-oss"
            name="meta-security"
            path="meta-security"
-           revision="whinlatter" />
+           revision="wrynose" />
 
   <project remote="jhnc-oss"
            name="yocto-meta-kf6"
