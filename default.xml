@@ -16,7 +16,7 @@
   <project remote="jhnc-oss"
            name="openembedded-core"
            path="openembedded-core"
-      revision="refs/tags/yocto-6.0" />
+      revision="06dd66e6220e5ce4ed4b9af4d8231ae5f0a8ce80" />
 
   <project remote="jhnc-oss"
            name="meta-yocto"
