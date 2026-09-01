@@ -11,22 +11,22 @@
   <project remote="jhnc-oss"
            name="bitbake"
            path="bitbake"
-           revision="refs/tags/yocto-6.0" />
+           revision="acfe02fa38b5da9e6a36c6cedcf91d4fcbefbfbd" />
 
   <project remote="jhnc-oss"
            name="openembedded-core"
            path="openembedded-core"
-      revision="06dd66e6220e5ce4ed4b9af4d8231ae5f0a8ce80" />
+      revision="5d1aa5c806c061a2994f4decb59016610f093213" />
 
   <project remote="jhnc-oss"
            name="meta-yocto"
            path="meta-yocto"
-           revision="refs/tags/yocto-6.0" />
+           revision="24c24cef5d1523fefe43a3e3d34667b37ae551f3" />
 
   <project remote="jhnc-oss"
            name="yocto-docs"
            path="yocto-docs"
-           revision="refs/tags/yocto-6.0" />
+           revision="2c59a23fc39d92831cb55a0e5f713d20f94730d4" />
 
   <project remote="jhnc-oss"
            name="protos"
