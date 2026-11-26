@@ -4,30 +4,31 @@
   <!-- settings -->
   <default sync-j="4" />
 
-  <!-- remotes -->
+  <!-- GitHub remotes -->
   <remote name="jhnc-oss" fetch="https://github.com/jhnc-oss" />
 
-  <!-- layers -->
+  <!-- Core repositories: pinned to Yocto 6.0.4 SRCREV -->
   <project remote="jhnc-oss"
            name="bitbake"
            path="bitbake"
-           revision="refs/tags/yocto-6.0" />
+           revision="51fd94a67fa17650a9ff623492005972bbc7d26f" />
 
   <project remote="jhnc-oss"
            name="openembedded-core"
            path="openembedded-core"
-      revision="refs/tags/yocto-6.0" />
+           revision="0f03c732a0a2d0506b41b1abe60b3f368b2300dc" />
 
   <project remote="jhnc-oss"
            name="meta-yocto"
            path="meta-yocto"
-           revision="refs/tags/yocto-6.0" />
+           revision="7c25b11156553145fa6b241a2d4f65d94438f804" />
 
   <project remote="jhnc-oss"
            name="yocto-docs"
            path="yocto-docs"
-           revision="refs/tags/yocto-6.0" />
+           revision="a2cc1f5b86f3cdc9ad3257a2545322c5169da3ca" />
 
+  <!-- Additional layers -->
   <project remote="jhnc-oss"
            name="protos"
            path="protos"
@@ -46,18 +47,19 @@
   <project remote="jhnc-oss"
            name="meta-qt6"
            path="meta-qt6"
-           revision="refs/tags/v6.11.1" />
+           revision="refs/tags/v6.12.0" />
 
   <project remote="jhnc-oss"
            name="meta-selinux"
            path="meta-selinux"
            revision="wrynose" />
 
-    <project remote="jhnc-oss"
+  <project remote="jhnc-oss"
            name="meta-security"
            path="meta-security"
            revision="wrynose" />
 
+  <!-- TODO: replace master with a validated commit -->
   <project remote="jhnc-oss"
            name="yocto-meta-kf6"
            path="meta-kf6"
