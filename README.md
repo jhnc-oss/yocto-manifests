@@ -21,5 +21,5 @@ repo sync
 |:--------------------:|:------:|------|
 | **`wrynose`**        | :heavy_check_mark: LTS | :arrows_clockwise: Synced from `main` — *do not contribute directly* |
 | **`scarthgap`**      | :heavy_check_mark: LTS | |
-| **`kirkstone`**      | :heavy_check_mark: LTS | |
-| **`dunfell`**        | :heavy_check_mark: LTS | |
+| **`kirkstone`**      | :heavy_check_mark: LTS | EOL |
+| **`dunfell`**        | :heavy_check_mark: LTS | EOL |
